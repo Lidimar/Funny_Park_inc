@@ -1,4 +1,6 @@
-script: make
+script:
+  - gcc main.c
+  - ./a.out
 language: c
 compiler:
  - gcc
