@@ -1,6 +1,8 @@
 language: c
 compiler:
  - gcc
+notifications:
+  email: false
 script:
   - make compile
   - make executa
