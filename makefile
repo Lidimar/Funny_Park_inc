@@ -1,2 +1,2 @@
-make test:
+test:
   gcc main.c
