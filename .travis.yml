@@ -1,6 +1,14 @@
 language: c
 compiler:
  - gcc
+
+before_install:
+  - pip install --user cpp-coveralls
+script:
+  - ./configure --enable-gcov && make && make check
+after_success:
+  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
+
 notifications:
   email: false
 script:

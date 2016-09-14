@@ -1,0 +1,85 @@
+# Ignore the temporary directory
+
+/tmp
+
+
+
+# Ignore logs
+
+/log/
+
+
+
+# Ignore any build artifacts
+
+*.bundle
+
+*.so
+
+*.o
+
+*.a
+
+Makefile
+
+mkmf.log
+
+skylight_dlopen.c
+
+/lib/skylight_native.*
+
+
+
+# Ignore OS artifacts
+
+.DS_Store
+
+/b/*
+
+
+
+# Build artifacts
+
+/ext/install.log
+
+/lib/skylight/native
+
+/target
+
+
+
+# Ignore lockfiles from travis Gemfiles
+
+/gemfiles/*.lock
+
+/gemfiles/vendor
+
+/Gemfile.lock
+
+
+
+# Ignore developer specific configuration
+
+.rspec
+
+
+
+# Ignore testing files
+
+/spec/dummy/Gemfile.lock
+
+/spec/dummy/log/*
+
+
+
+# Docs
+
+/.yardoc
+
+/doc
+
+
+
+# Vagrant
+
+/.vagrant
