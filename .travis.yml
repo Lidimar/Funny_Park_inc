@@ -1,5 +1,7 @@
+script: make test
 language: c
 rvm:
+ - 4.6.3
  - gcc
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
