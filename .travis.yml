@@ -2,5 +2,4 @@ language: c
 compiler:
  - gcc
 script:
-  - gcc main.c
-  - ./a.out
+  - make test
