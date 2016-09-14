@@ -1,1 +1,1 @@
-# Funny_Park
+#Funny Park Inc
