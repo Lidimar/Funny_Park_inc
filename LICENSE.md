@@ -1,4 +1,5 @@
 Funny Park Inc - Gerenciador de estacionamento
+
     Copyright (C) 2016  Higor Henrique Alves
 
     This program is free software: you can redistribute it and/or modify
