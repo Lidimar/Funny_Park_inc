@@ -1,4 +1,5 @@
-./configure && make && make test
-
 language: c
-compiler: gcc
+rvm:
+ - gcc
+# uncomment and edit the following line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
