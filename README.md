@@ -20,6 +20,10 @@
 
 **Tipo de Sistema:** Ubuntu 12.04 LTS Server Edition 64 bit
 
+##Compilador
+ GCC version
+ gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+
 ##License
  Estamos sobre a Licensa [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
  
