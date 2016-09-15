@@ -3,5 +3,16 @@
 
 #Funny Park Inc
 
+##Ambiente de Desenvolvimento
+ **Processador:** Intel(R) Core(TM) i7-3770k CPU @ 3.50GHz
+ 
+ **Memoria Ram:** 16,0 GB
+ 
+ **Placa de Video:** Geforce GTX 770 Sc
+ 
+ **Tipo de Sistema:** Sistema Operacional de 64 bits, processador com base em x64
+ 
+##Ambiente de Testes
+
 ##License
  Estamos sobre a Licensa [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
