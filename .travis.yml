@@ -4,5 +4,6 @@ compiler:
 notifications:
   email: false
 script:
+  - clear
   - make compile
   - make executa
