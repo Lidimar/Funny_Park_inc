@@ -23,6 +23,9 @@
 ##Compilador
  GCC version
  gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+ 
+##Build Test
+ Usamos o site Travis CI para compilar nosso codigo, pode verificar aqui o status [VERIFICAR](https://travis-ci.org/HigorAlves/Funny_Park_inc)
 
 ##License
  Estamos sobre a Licensa [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
