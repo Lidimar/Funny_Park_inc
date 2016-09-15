@@ -16,3 +16,15 @@
 
 ##License
  Estamos sobre a Licensa [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
+ 
+###Projeto Para
+ 
+Professor: Leonardo Chaves Dutra da Rocha
+
+UNIVERSIDADE FEDERAL DE SÃO JOÃO DEL REI
+
+DEPARTAMENTO DE CIÊNCIA DA COMPUTAÇÃO
+
+BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO
+
+ALGORITMOS E ESTRUTURAS DE DADOS III
