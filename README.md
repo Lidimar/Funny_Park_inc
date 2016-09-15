@@ -10,9 +10,15 @@
  
  **Placa de Video:** Geforce GTX 770 Sc
  
- **Tipo de Sistema:** Sistema Operacional de 64 bits, processador com base em x64
+ **Tipo de Sistema:** Sistema Operacional Windows 10 de 64 bits, processador com base em x64
  
 ##Ambiente de Testes
+
+**Memoria Ram:** 7.5 GB
+
+**Cores:** ~2, bursted
+
+**Tipo de Sistema:** Ubuntu 12.04 LTS Server Edition 64 bit
 
 ##License
  Estamos sobre a Licensa [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
