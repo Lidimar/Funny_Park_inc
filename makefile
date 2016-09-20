@@ -1,6 +1,6 @@
 compile:
 	clear
-	gcc main.c umabiblioteca.c -O3 -0 tp2
+	gcc main.c umabiblioteca.c -O3 -o tp2
 
 executa:
 	./tp2
