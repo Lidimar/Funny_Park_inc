@@ -3,7 +3,6 @@
 
 /* DECLARAÇÃO DAS BIBLIOTECAS */
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 /*----------------------------*/
 
