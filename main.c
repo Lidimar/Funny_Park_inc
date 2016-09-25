@@ -15,11 +15,9 @@ int main (){
 
   /* Declaramos a quantidade de carros */
   _veiculo carros[n];
-  
+
   /* Pegar os dados do arquivo */
   while ((fscanf (IN_carros, "%s %s %s %s", carros[i].nome, &word2, &word3, &word4)) != EOF){
-    //strcpy(carros[i].nome, word1);
-    //printf("WORD: %s\n", carros[i].nome);
     n++;
     i++;
   }
