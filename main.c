@@ -7,7 +7,7 @@
 
 int main (){
   char *word = NULL;
-  int i = 0, n = 0;
+  int i = 1, n = 0, j = 1;
   /* Abrimos o arquivo e verificamos se realmente conseguimos abri-lo */
   FILE *IN_carros = fopen ("carros.txt", "r");
 
@@ -20,26 +20,30 @@ int main (){
     n += 1;
   }
   /* Declaramos a quantidade de carros */
-  _veiculo carros[n];
+  _veiculo carros[n][n];
   /* Voltamos o arquivo para o começo dele */
   rewind(IN_carros);
 
   /* Pegar os dados do arquivo */
   while ((fscanf (IN_carros, "%m[^"DELIMITER"]%*["DELIMITER"]", &word)) != EOF){
-    /* Dependendo do valor do i vamos saber em qual variavel adicionar ele */
-    if (i == 0){
-      strcpy(carros[i].nome, word);
-    }else if (i == 1){
-
-    }else if (i == 2){
-
+    if (j == 1){
+      strcpy(carros[i][j].nome, word);
+    }
+    if (j == 2){
+      strcpy(carros[i][j].tipo, word);
+      printf("Entrou %s %i %i\n", carros[i][j].tipo, i, j);
     }
 
-    if (strlen(word) > 1){
+    if (j == 4){
+      i++;
+      j = 0;
     }
-
-    i++;
+    j++;
   }
-  
+  //printf("%i %i\n", i,j);
+  i = 2;
+  j = 2;
+  printf("\nFora do Loop:%s\n",carros[i][j].tipo);
+
   return 0;
 }

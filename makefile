@@ -6,4 +6,5 @@ executa:
 	./tp2
 
 clean:
-	rm -r tp2 *.o
+	rm -r tp2
+	clear
