@@ -16,12 +16,6 @@ typedef struct veiculo{ //estrutura para definir onde cada carro começa
   char inicio_y [2];
 } _veiculo;
 
-typedef struct manobras{
-  char nome [2];
-  char eixo [2];
-  char quantidade [2];
-} _manobras
-
 /*----------------------------*/
 
 #endif

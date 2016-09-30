@@ -30,5 +30,12 @@ int main (){
   fclose(IN_carros);
   /*---------------------------------------------------------------------*/
 
+  FILE *IN_manobras = fopen("manabras.txt", "r");
+
+  if (IN_carros == NULL){
+    printf("Não foi possivel ler o arquivo de configuração dos carros\n");
+    return 1;
+  }
+  
   return 0;
 }
