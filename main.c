@@ -2,9 +2,11 @@
 #include "umabiblioteca.h"
 /*------------------------*/
 
+#define DELIMITER "\n"
+
 int main (){
-  char word1[2],word2[2],word3[2],word4[5];
-  int i = 0, n = 1, j = 1;
+  char word [2]; //Somente para guardar o lixo do arquivo
+  int i = 0, n = 0, j = 1;
   /* Abrimos o arquivo e verificamos se realmente conseguimos abri-lo */
   FILE *IN_carros = fopen ("carros.txt", "r");
 
@@ -13,16 +15,21 @@ int main (){
     return 0;
   }
 
+  while ((fscanf (IN_carros, "%m[^"DELIMITER"]%*["DELIMITER"]", word)) != EOF){
+    n++;
+  }
+
+  rewind(IN_carros);
+  printf("N %i\n", n);
   /* Declaramos a quantidade de carros */
   _veiculo carros[n];
 
   /* Pegar os dados do arquivo */
-  while ((fscanf (IN_carros, "%s %s %s %s", carros[i].nome, &word2, &word3, &word4)) != EOF){
-    n++;
+  while ((fscanf (IN_carros, "%s %s %s %c%c%c%c", carros[i].nome, carros[i].tipo, carros[i].paralelo, word, carros[i].inicio_x, word, carros[i].inicio_y)) != EOF){
     i++;
   }
-  i = 1;
-  printf("\nFora do Loop:%s\n",carros[i].nome);
+
+  printf("\nFora do Loop:%s\n",carros[1].inicio_x);
 
   fclose(IN_carros);
   return 0;
