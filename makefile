@@ -1,10 +1,10 @@
 compile:
 	clear
-	gcc main.c umabiblioteca.c -O3 -o tp2
+	gcc main.c umabiblioteca.c -O3 -w -o tp2
 
 executa:
 	./tp2
 
 clean:
-	rm -r tp2 a.out
+	rm -r tp2
 	clear
